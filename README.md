@@ -2,7 +2,7 @@
 
 `npm config set registry https://registry.npmjs.org`
 
-`npm install @suey/packages --save`
+`npm install @suey/loader --save`
 
 
 

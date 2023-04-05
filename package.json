@@ -1,6 +1,6 @@
 {
   "name": "@suey/loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "many games laoder to play.",
   "main": "index.ts",
   "scripts": {
@@ -9,6 +9,10 @@
   },
   "author": "suey",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iqseternal/suey-loader.git"
+  },
   "devDependencies": {
     "vite": "^4.2.1"
   },
