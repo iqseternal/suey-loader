@@ -1,0 +1,18 @@
+{
+  "name": "@suey/loader",
+  "version": "1.0.0",
+  "description": "many games laoder to play.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "author": "suey",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.2.1"
+  },
+  "exports": {
+    ".": "./index.ts"
+  }
+}
