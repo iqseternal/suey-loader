@@ -20,7 +20,7 @@
 
 ```javascript
 
-import { loader } from '@suey/gameloader';
+import { loader } from '@suey/loader';
 
 // 默认的玩家1 wasd 上下左右 j 攻击
 // 默认的玩家2 ↑↓←→ 上下左右 小键盘1 攻击
@@ -61,13 +61,13 @@ loader('app').then(async ({ controller }) => {
 当默认的元素模型已经不能再满足你的需求的时候，你可以自定义飞机，子弹，按键等等
 
 ```javascript
-import { loader } from '@suey/gameloader';
+import { loader } from '@suey/loader';
 
-import type { Init } from '@suey/gameloader';
+import type { Init } from '@suey/loader';
 import {
   Plane, Weapon,
   assetLoader, makeCharKey, makeArrowKey, makeDigitKey, makeNumpadKey
-} from '@suey/gameloader';
+} from '@suey/loader';
 
 loader('app').then(async ({ controller }) => {
   // 创建 Init 函数 用户装载玩家飞机
