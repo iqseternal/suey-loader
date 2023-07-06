@@ -5,7 +5,6 @@
 `npm install @suey/loader --save`
 
 
-
 ## 快速建立
 
 ```html
@@ -19,8 +18,7 @@
 ```
 
 ```javascript
-
-import { loader } from '@suey/loader';
+import { loader } from '@suey/loader/planeGame';
 
 // 默认的玩家1 wasd 上下左右 j 攻击
 // 默认的玩家2 ↑↓←→ 上下左右 小键盘1 攻击

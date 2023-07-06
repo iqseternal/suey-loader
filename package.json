@@ -1,22 +1,22 @@
 {
   "name": "@suey/loader",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "many games laoder to play.",
   "main": "index.ts",
+  "types": "index.d.ts",
+  "exports": {
+    ".": "./index.js",
+    "./planeGame": "./planeGame/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "type": "tsc -p . --emitDeclarationOnly",
+    "build": "tsc -p ."
   },
   "author": "suey",
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git@github.com:iqseternal/suey-loader.git"
-  },
-  "devDependencies": {
-    "vite": "^4.2.1"
-  },
-  "exports": {
-    ".": "./index.ts"
   }
 }
